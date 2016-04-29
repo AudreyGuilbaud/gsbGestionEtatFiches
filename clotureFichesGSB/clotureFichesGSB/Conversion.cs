@@ -5,7 +5,7 @@ using System.Text;
 
 namespace clotureFichesGSB
 {
-    abstract class Conversion
+    public abstract class Conversion
     {
 
         //Convertit un objet de type object vers une variable de type int

@@ -7,14 +7,14 @@ namespace clotureFichesGSB {
     public abstract class GestionDates {
         
         //Retourne le numéro du mois obtenu après avoir soustrait le nombre de mois passé en paramètre à la date passée en paramètre.
-        public static string calculMois(DateTime mois, int nbMois) 
+        private static string calculMois(DateTime mois, int nbMois) 
         {
             string resultat = Conversion.dateVersStringMois(mois.AddMonths(nbMois));
             return resultat;
         }
 
         //Retourne le numéro du mois obtenu après soustrait le nombre de mois passé en paramètre à la date du jour.
-        public static string calculMois(int mois)
+        private static string calculMois(int mois)
         {
             return calculMois(DateTime.Today, mois);
         }

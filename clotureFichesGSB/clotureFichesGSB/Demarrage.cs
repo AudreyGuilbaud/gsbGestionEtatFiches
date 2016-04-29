@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 using MySql.Data.MySqlClient;
+
 
 namespace clotureFichesGSB
 {
@@ -16,10 +18,8 @@ namespace clotureFichesGSB
         static void Main()
         {
             AccesDonnees accesDonnees = new AccesDonnees();
-            
-
-           
-
+            Timer timer = new Timer(10000);
+            timer.Start();
                     
         }
     }
