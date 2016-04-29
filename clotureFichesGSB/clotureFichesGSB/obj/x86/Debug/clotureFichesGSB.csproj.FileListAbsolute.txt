@@ -1,0 +1,9 @@
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\obj\x86\Debug\clotureFichesGSB.csprojResolveAssemblyReference.cache
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\clotureFichesGSB.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\MySql.Data.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\nunit.framework.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\obj\x86\Debug\clotureFichesGSB.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\nunit.framework.xml
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\clotureFichesGSB.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\obj\x86\Debug\clotureFichesGSB.exe

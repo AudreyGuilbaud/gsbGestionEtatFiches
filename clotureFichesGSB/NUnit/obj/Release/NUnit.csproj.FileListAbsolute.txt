@@ -1,0 +1,10 @@
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\NUnit.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\NUnit.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\nunit.framework.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\MySql.Data.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\nunit.framework.xml
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\Release\NUnit.csprojResolveAssemblyReference.cache
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\Release\NUnit.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\Release\NUnit.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\MySql.Data.Entity.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Release\MySql.Web.dll
