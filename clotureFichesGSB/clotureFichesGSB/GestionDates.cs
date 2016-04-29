@@ -6,6 +6,18 @@ using System.Text;
 namespace clotureFichesGSB {
     abstract class GestionDates {
         
+        //Retourne le numéro du mois obtenu après avoir soustrait le nombre de mois passé en paramètre à la date passée en paramètre.
+        public static string calculMois(DateTime mois, int nbMois) 
+        { 
+
+        }
+
+        //Retourne le numéro du mois obtenu après soustrait le nombre de mois passé en paramètre à la date du jour.
+        public static string calculMois(int Mois)
+        {
+
+        }
+
         //Retourne le numéro du mois précédent par rapport à la date passée en paramètre.
         public static string getMoisPrecedent(DateTime mois) 
         {
