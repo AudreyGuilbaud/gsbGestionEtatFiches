@@ -221,7 +221,7 @@ namespace clotureFichesGSB {
                 }
 
                 //méthode pour exécuter requête de recherche à résultats multiples sans paramètres
-                public MySqlDataReader queryAll(string requete, string[] valeur, string[] cle)
+                public MySqlDataReader queryAllSansParam(string requete, string[] valeur, string[] cle)
                 {
                     //try {
                     // Ouverture de la connexion SQL

@@ -1,0 +1,13 @@
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\nunit-console-runner.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\nunit.framework.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\nunit.util.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\nunit.core.interfaces.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\nunit.core.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\x86\Debug\NUnit.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\x86\Debug\NUnit.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\clotureFichesGSB.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\MySql.Data.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\clotureFichesGSB.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\x86\Debug\NUnit.csprojResolveAssemblyReference.cache

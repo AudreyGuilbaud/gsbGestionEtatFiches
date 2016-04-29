@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-04-29" time="22:28:00">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.34014" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug" machine-name="SHANDO" user="Session principale" user-domain="Shando" />
+  <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
+  <test-suite type="Assembly" name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" executed="True" result="Success" success="True" time="0.094" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnit" executed="True" result="Success" success="True" time="0.091" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="GestionDatesTests" executed="True" result="Success" success="True" time="0.091" asserts="0">
+            <results>
+              <test-case name="NUnit.GestionDatesTests.getMoisPrecedent" executed="True" result="Success" success="True" time="0.087" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

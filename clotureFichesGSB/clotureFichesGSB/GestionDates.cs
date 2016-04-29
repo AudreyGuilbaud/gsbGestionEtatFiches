@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace clotureFichesGSB {
-    abstract class GestionDates {
+    public abstract class GestionDates {
         
         //Retourne le numéro du mois obtenu après avoir soustrait le nombre de mois passé en paramètre à la date passée en paramètre.
         public static string calculMois(DateTime mois, int nbMois) 
