@@ -44,15 +44,16 @@ namespace clotureFichesGSB {
         }
 
         //Retourne vrai si le numéro du jour de la date passée en paramètre est comprise entre les deux numéros passés en paramètres.
-        public static bool entre(int jourInf, int jourSup, DateTime jourEntre) 
+        public static bool entre(DateTime jourEntre, int jourInf, int jourSup) 
         {
-
+            int jour = Conversion.objectVersInt(jourEntre.Day);
+            return ( (jour > jourInf) && (jour < jourSup) ) ;
         }
 
         //Retourne vrai si le numéro du jour de la date du jour est comprise entre les deux numéros passés en paramètres.
         public static bool entre(int jourInf, int jourSup)
         {
-
+            return entre(DateTime.Today, jourInf, jourSup);
         }
 
 
