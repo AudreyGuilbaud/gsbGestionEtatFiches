@@ -41,6 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AccesDonnees.cs" />
+    <Compile Include="ActionsPrincipales.cs" />
     <Compile Include="Conversion.cs" />
     <Compile Include="GestionDates.cs" />
     <Compile Include="Demarrage.cs" />

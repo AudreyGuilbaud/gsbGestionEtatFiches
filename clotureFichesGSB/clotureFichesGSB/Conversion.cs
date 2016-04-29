@@ -28,5 +28,12 @@ namespace clotureFichesGSB
             string mois = date.ToString("MM");
             return mois;
         }
+
+        //Convertit un objet de type Date vers un objet de type String en ne récupérant que l'année
+        public static string dateVersStringAnnee(DateTime date)
+        {
+            string annee = date.ToString("yyyy");
+            return annee;
+        }
     }
 }

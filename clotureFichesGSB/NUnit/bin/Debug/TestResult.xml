@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" total="14" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-04-29" time="23:23:14">
+<test-results name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" total="22" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-04-30" time="00:42:56">
   <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.34014" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug" machine-name="SHANDO" user="Session principale" user-domain="Shando" />
   <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
-  <test-suite type="Assembly" name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" executed="True" result="Success" success="True" time="0.273" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\NUnit.exe" executed="True" result="Success" success="True" time="0.185" asserts="0">
     <results>
-      <test-suite type="Namespace" name="NUnit" executed="True" result="Success" success="True" time="0.270" asserts="0">
+      <test-suite type="Namespace" name="NUnit" executed="True" result="Success" success="True" time="0.182" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="AccesDonneesTests" executed="True" result="Success" success="True" time="0.257" asserts="0">
+          <test-suite type="TestFixture" name="AccesDonneesTests" executed="True" result="Success" success="True" time="0.165" asserts="0">
             <results>
-              <test-case name="NUnit.AccesDonneesTests.getDatabase" executed="True" result="Success" success="True" time="0.249" asserts="1" />
+              <test-case name="NUnit.AccesDonneesTests.getDatabase" executed="True" result="Success" success="True" time="0.157" asserts="1" />
               <test-case name="NUnit.AccesDonneesTests.getHost" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="NUnit.AccesDonneesTests.getPassword" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="NUnit.AccesDonneesTests.getUser" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.AccesDonneesTests.getUser" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="GestionDatesTests" executed="True" result="Success" success="True" time="0.011" asserts="0">
+          <test-suite type="TestFixture" name="ConversionTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="NUnit.ConversionTests.dateVersStringAnnee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.ConversionTests.dateVersStringMois" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GestionDatesTests" executed="True" result="Success" success="True" time="0.013" asserts="0">
             <results>
               <test-case name="NUnit.GestionDatesTests.entreTest1" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.entreTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.entreTest2" executed="True" result="Success" success="True" time="0.001" asserts="1" />
               <test-case name="NUnit.GestionDatesTests.entreTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.entreTest4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.getMoisPrecedentTest1" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.getMoisPrecedentTest2" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.entreTest4" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getAnneePrecedentTest1" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getAnneePrecedentTest2" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getAnneePrecedentTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisAnneePrecedentTest1" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisAnneePrecedentTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisAnneePrecedentTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisPrecedentTest1" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisPrecedentTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="NUnit.GestionDatesTests.getMoisPrecedentTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.getMoisSuivantTest1" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisSuivantTest1" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="NUnit.GestionDatesTests.getMoisSuivantTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="NUnit.GestionDatesTests.getMoisSuivantTest3" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NUnit.GestionDatesTests.getMoisSuivantTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
         </results>

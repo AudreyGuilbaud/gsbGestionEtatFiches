@@ -56,7 +56,32 @@ namespace clotureFichesGSB {
             return entre(DateTime.Today, jourInf, jourSup);
         }
 
+        //Retourne l'année du mois précédent du mois passé en paramètre(notamment pour traiter le mois de janvier)
+        public static string getAnneePrecedent(DateTime mois)
+        {
+            string resultat = Conversion.dateVersStringAnnee(mois.AddMonths(-1));
+            return resultat;
+        }
 
+        //Retourne l'année du mois précédent du jour
+        public static string getAnneePrecedent() {
+            return getAnneePrecedent(DateTime.Today);
+        }
+
+
+        //Retourne la concaténation du mois et de l'année précédent de la date passée en paramètre.
+        public static string getMoisAnneePrecedent(DateTime moisAnnee) 
+        {
+            string mois = getMoisPrecedent(moisAnnee);
+            string annee = getAnneePrecedent(moisAnnee);
+            string resultat = annee + mois;
+            return resultat;
+        }
+
+        //Retourne la concanténation du mois et de l'annnée précédent de la date du jour.
+        public static string getMoisAnneePrecedent() {
+            return getMoisAnneePrecedent(DateTime.Today);
+        }
 
     }
 }

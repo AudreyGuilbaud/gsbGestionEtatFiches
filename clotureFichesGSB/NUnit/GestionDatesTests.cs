@@ -60,7 +60,7 @@ namespace NUnit
         [Test]
         public void entreTest1()
         {
-            Assert.IsTrue(clotureFichesGSB.GestionDates.entre(20,30)) ;
+            Assert.IsTrue(clotureFichesGSB.GestionDates.entre(20,31)) ;
         }
 
 
@@ -86,5 +86,52 @@ namespace NUnit
             DateTime date = new DateTime(2015, 10, 15);
             Assert.IsFalse(clotureFichesGSB.GestionDates.entre(date,7, 14));
         }
+
+        //Test année du mois précédent avec date donnée en paramètre.
+        [Test]
+        public void getAnneePrecedentTest1() 
+        {
+            DateTime date = new DateTime(2013, 10, 15);
+            Assert.AreEqual("2013", clotureFichesGSB.GestionDates.getAnneePrecedent(date));
+        }
+
+        //Test année du mois précédent avec date au mois de janvier.
+        [Test]
+        public void getAnneePrecedentTest2()
+        {
+            DateTime date = new DateTime(2012, 04, 15);
+            Assert.AreEqual("2012", clotureFichesGSB.GestionDates.getAnneePrecedent(date));
+        }
+
+        //Test année du mois précédent avec date du jour.
+        [Test]
+        public void getAnneePrecedentTest3()
+        {
+            Assert.AreEqual("2016", clotureFichesGSB.GestionDates.getAnneePrecedent());
+        }
+
+        //Test année/mois précédent avec date donnée en paramètre.
+        [Test]
+        public void getMoisAnneePrecedentTest1()
+        {
+            DateTime date = new DateTime(2004, 08, 15);
+            Assert.AreEqual("200407", clotureFichesGSB.GestionDates.getMoisAnneePrecedent(date));
+        }
+
+        //Test année/mois précédent avec date au mois de janvier.
+        [Test]
+        public void getMoisAnneePrecedentTest2()
+        {
+            DateTime date = new DateTime(2000, 01, 15);
+            Assert.AreEqual("199912", clotureFichesGSB.GestionDates.getMoisAnneePrecedent(date));
+        }
+
+        //Test année du mois précédent avec date du jour.
+        [Test]
+        public void getMoisAnneePrecedentTest3()
+        {
+            Assert.AreEqual("201603", clotureFichesGSB.GestionDates.getMoisAnneePrecedent());
+        }
+
     }
 }

@@ -20,6 +20,7 @@ namespace clotureFichesGSB
             AccesDonnees accesDonnees = new AccesDonnees();
             Timer timer = new Timer(10000);
             timer.Start();
+            ActionsPrincipales.clotureFiches(accesDonnees);
                     
         }
     }
