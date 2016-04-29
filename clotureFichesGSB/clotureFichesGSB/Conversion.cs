@@ -5,7 +5,7 @@ using System.Text;
 
 namespace clotureFichesGSB
 {
-    class Conversion
+    abstract class Conversion
     {
 
         //Convertit un objet de type object vers une variable de type int
@@ -15,11 +15,18 @@ namespace clotureFichesGSB
             return resultat;
         }
 
-        //Convertit un objet de type object vers une variable de type string
+        //Convertit un objet de type object vers un objet de type String
         public static string ObjectVersString(object valeur)
         {
             string resultat = valeur.ToString();
             return resultat;
+        }
+
+        //Convertit un objet de type Date vers un objet de type String en ne récupérant que le mois
+        public static string DateVersStringMois(DateTime date)
+        {
+            string mois = date.ToString("MM");
+            return mois;
         }
     }
 }
