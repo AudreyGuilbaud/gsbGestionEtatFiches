@@ -31,8 +31,6 @@ namespace clotureFichesGSB
         {
             // Création de la chaîne de connexion
             string connect = "SERVER=" + host + "; DATABASE=" + database + "; UID=" + user + "; PASSWORD=" + password;
-            Console.WriteLine(connect);
-            Console.ReadKey();
             this.connexion = new MySqlConnection(connect);
         }
 

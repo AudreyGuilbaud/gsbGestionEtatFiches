@@ -9,10 +9,12 @@ namespace clotureFichesGSB
     class GestionTimer
     {
         double delaiTimer;
+        Timer leTimer;
         //Constructeur
         public GestionTimer(int delaiTimer)
         {
             this.delaiTimer = delaiTimer;
+            this.leTimer = new Timer();
         }
 
         //Définition des actions du timer à chaque tick.
@@ -24,11 +26,11 @@ namespace clotureFichesGSB
 
         //Exécution du timer.
         public void setTimer()
-        {
-            Timer leTimer = new System.Timers.Timer(delaiTimer);
-            leTimer.Elapsed += OnTimedEvent;
+        {          
             leTimer.AutoReset = true;
             leTimer.Enabled = true;
+            leTimer.Elapsed += OnTimedEvent;
+            leTimer.Start();          
         }
     }
 }

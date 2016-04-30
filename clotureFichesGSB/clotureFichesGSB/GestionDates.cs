@@ -47,7 +47,7 @@ namespace clotureFichesGSB {
         public static bool entre(DateTime jourEntre, int jourInf, int jourSup) 
         {
             int jour = Conversion.objectVersInt(jourEntre.Day);
-            return ( (jour > jourInf) && (jour < jourSup) ) ;
+            return ( (jour >= jourInf) && (jour <= jourSup) ) ;
         }
 
         //Retourne vrai si le numéro du jour de la date du jour est comprise entre les deux numéros passés en paramètres.
