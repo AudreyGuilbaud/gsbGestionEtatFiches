@@ -1,0 +1,9 @@
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\bin\Debug\clotureFichesGSBService.cs.exe.config
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\bin\Debug\clotureFichesGSBService.cs.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\bin\Debug\clotureFichesGSBService.cs.pdb
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.csprojResolveAssemblyReference.cache
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.ServiceClotureFiches.resources
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.ProjectInstaller.resources
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.csproj.GenerateResource.Cache
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSBService.cs\obj\Debug\clotureFichesGSBService.cs.pdb
