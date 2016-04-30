@@ -5,23 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 
 namespace clotureFichesGSB
 {
     static class Demarrage
     {
+        
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            AccesDonnees accesDonnees = new AccesDonnees();
-            Timer timer = new Timer(10000);
-            timer.Start();
-            ActionsPrincipales.clotureFiches(accesDonnees);
-                    
+            GestionTimer timer = new GestionTimer(10000);
+            //MessageBox.Show("L'application de gestion des états de fiches de frais a démarré.", "Démarrage de l'application", MessageBoxButtons.OK);
+            timer.setTimer();             
         }
+
+
     }
 }
