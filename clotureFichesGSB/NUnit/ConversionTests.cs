@@ -11,7 +11,9 @@ namespace NUnit
     public class ConversionTests
     {
 
-    //Teste la conversion d'un objet de type date en type string ne comprenant que le mois
+    /// <summary>
+        /// Teste la conversion d'un objet de type date en type string ne comprenant que le mois
+    /// </summary>
         [Test]
         public void dateVersStringMois() 
         {
@@ -19,7 +21,9 @@ namespace NUnit
             Assert.AreEqual("04", clotureFichesGSB.Conversion.dateVersStringMois(date));
         }
 
-     //Teste la conversion d'un objet de type date en type string ne comprenant que l'année
+     /// <summary>
+        /// Teste la conversion d'un objet de type date en type string ne comprenant que l'année
+     /// </summary>
         [Test]
         public void dateVersStringAnnee()
         {

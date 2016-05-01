@@ -19,14 +19,18 @@ namespace clotureFichesGSB
         private string password = "ppe";
         private MySqlConnection connexion;
 
-        // Constructeur
+        /// <summary>
+        /// Constructeur de la classe AccesDonnees : crée un objet d'accès à la base de données
+        /// </summary>
         public AccesDonnees(/*string host, string database, string user, string password*/)
         {
             this.Initialize();
         }
 
 
-        // Méthode pour initialiser la connexion
+        /// <summary>
+        ///  Méthode pour initialiser la connexion.
+        /// </summary>
         private void Initialize()
         {
             // Création de la chaîne de connexion
@@ -34,30 +38,48 @@ namespace clotureFichesGSB
             this.connexion = new MySqlConnection(connect);
         }
 
-        // Accesseurs
-
-
+        /// <summary>
+        /// Get Serveur.
+        /// </summary>
+        /// <returns></returns> 
         public string getHost()
         {
             return this.host;
         }
 
+        /// <summary>
+        /// Get Mot de passe.
+        /// </summary>
+        /// <returns></returns>
         public string getPassword()
         {
             return this.password;
         }
 
+        /// <summary>
+        /// Get Utilisateur.
+        /// </summary>
+        /// <returns></returns>
         public string getUser()
         {
             return this.user;
         }
 
+        /// <summary>
+        /// Get Base de données
+        /// </summary>
+        /// <returns></returns>
         public string getDatabase()
         {
             return this.database;
         }
 
-        // Méthode pour exécuter requêtes d'insertion/modification/suppression
+        /// <summary>
+        ///  Méthode pour exécuter requêtes d'insertion/modification/suppression
+        /// </summary>
+        /// <param name="requete"></param>
+        /// <param name="valeur"></param>
+        /// <param name="cle"></param>
         public void exec(string requete, string[] valeur, string[] cle)
         {
             try
@@ -90,7 +112,13 @@ namespace clotureFichesGSB
             }
         }
 
-        //méthode pour exécuter requête de recherche à résultat unique
+        /// <summary>
+        /// méthode pour exécuter requête de recherche à résultat unique
+        /// </summary>
+        /// <param name="requete"></param>
+        /// <param name="valeur"></param>
+        /// <param name="cle"></param>
+        /// <returns></returns>
         public object query(string requete, string[] valeur, string[] cle)
         {
             //try {
@@ -124,7 +152,13 @@ namespace clotureFichesGSB
         }
 
 
-        //méthode pour exécuter requête de recherche à résultats multiples
+        /// <summary>
+        /// méthode pour exécuter requête de recherche à résultats multiples
+        /// </summary>
+        /// <param name="requete"></param>
+        /// <param name="valeur"></param>
+        /// <param name="cle"></param>
+        /// <returns></returns>
         public MySqlDataReader queryAll(string requete, string[] valeur, string[] cle)
         {
             //try {
@@ -156,7 +190,11 @@ namespace clotureFichesGSB
             }*/
         }
 
-        //méthode pour exécuter requête de recherche à résultat unique sans paramètres
+        /// <summary>
+        /// méthode pour exécuter requête de recherche à résultat unique sans paramètres
+        /// </summary>
+        /// <param name="requete"></param>
+        /// <returns></returns>
         public object querySansParam(string requete)
         {
             //try {
@@ -184,7 +222,13 @@ namespace clotureFichesGSB
             }*/
         }
 
-        //méthode pour exécuter requête de recherche à résultats multiples sans paramètres
+        /// <summary>
+        /// méthode pour exécuter requête de recherche à résultats multiples sans paramètres
+        /// </summary>
+        /// <param name="requete"></param>
+        /// <param name="valeur"></param>
+        /// <param name="cle"></param>
+        /// <returns></returns>
         public MySqlDataReader queryAllSansParam(string requete, string[] valeur, string[] cle)
         {
             //try {
@@ -212,4 +256,3 @@ namespace clotureFichesGSB
         }
     }
 }
-

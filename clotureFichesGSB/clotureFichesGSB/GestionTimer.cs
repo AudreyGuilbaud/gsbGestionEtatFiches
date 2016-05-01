@@ -10,21 +10,30 @@ namespace clotureFichesGSB
     {
         double delaiTimer;
         Timer leTimer;
-        //Constructeur
+        /// <summary>
+        /// Constructeur de la classe GestionTimer : valorise les propriétés delaiTimer (pour le délai du timer) et instancie un objet de type Timer.
+        /// </summary>
+        /// <param name="delaiTimer"></param>
         public GestionTimer(int delaiTimer)
         {
             this.delaiTimer = delaiTimer;
             this.leTimer = new Timer();
         }
 
-        //Définition des actions du timer à chaque tick.
+        /// <summary>
+        /// Définition des actions du timer à chaque tick (les deux fonctions de modifications de données).
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="e"></param>
         private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             GestionFiches.clotureFiches();
             GestionFiches.miseEnPaiementFiches();
         }
 
-        //Exécution du timer.
+        /// <summary>
+        /// Exécution du timer (démarrage et répétition tic)
+        /// </summary>
         public void setTimer()
         {          
             leTimer.AutoReset = true;

@@ -11,7 +11,9 @@ namespace NUnit
     [TestFixture]
     public class AccesDonneesTests
     {
-        //Vérification du serveur
+        /// <summary>
+        /// Vérification du serveur
+        /// </summary>
         [Test]
         public void getHost()
         {
@@ -19,7 +21,9 @@ namespace NUnit
             Assert.AreEqual("localhost", accesDonnees.getHost());
         }
 
-        //Vérification de la base de données
+        /// <summary>
+        /// Vérification de la base de données
+        /// </summary>
         [Test]
         public void getDatabase()
         {
@@ -27,7 +31,9 @@ namespace NUnit
             Assert.AreEqual("gsb_frais", accesDonnees.getDatabase());
         }
 
-        //Vérification de l'utilisateur
+        /// <summary>
+        /// Vérification de l'utilisateur
+        /// </summary>
         [Test]
         public void getUser()
         {
@@ -35,7 +41,9 @@ namespace NUnit
             Assert.AreEqual("root", accesDonnees.getUser());
         }
 
-        //Vérification du mot de passe
+        /// <summary>
+        /// Vérification du mot de passe
+        /// </summary>
         [Test]
         public void getPassword()
         {

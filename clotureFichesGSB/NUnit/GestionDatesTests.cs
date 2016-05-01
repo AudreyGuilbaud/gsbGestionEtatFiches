@@ -10,14 +10,18 @@ namespace NUnit
     [TestFixture]
     public class GestionDatesTests
     {
-        //Test mois précédent avec la date du jour
+        /// <summary>
+        /// Test mois précédent avec la date du jour
+        /// </summary>
         [Test]
         public void getMoisPrecedentTest1()
         {
-            Assert.AreEqual("03", clotureFichesGSB.GestionDates.getMoisPrecedent());
+            Assert.AreEqual("04", clotureFichesGSB.GestionDates.getMoisPrecedent());
         }
 
-        //Test mois précédent avec une date quelconque
+        /// <summary>
+        /// Test mois précédent avec une date quelconque
+        /// </summary>
         [Test]
         public void getMoisPrecedentTest2()
         {
@@ -25,7 +29,9 @@ namespace NUnit
             Assert.AreEqual("09", clotureFichesGSB.GestionDates.getMoisPrecedent(mois));
         }
 
-        //Test mois précédent avec date particulière : janvier (donc mois = 01 moins un mois = 12)
+        /// <summary>
+        /// Test mois précédent avec date particulière : janvier (donc mois = 01 moins un mois = 12)
+        /// </summary>
         [Test]
         public void getMoisPrecedentTest3()
         {
@@ -33,14 +39,18 @@ namespace NUnit
             Assert.AreEqual("12", clotureFichesGSB.GestionDates.getMoisPrecedent(mois));
         }
 
-        //Test mois suivant avec la date du jour
+        /// <summary>
+        /// Test mois suivant avec la date du jour
+        /// </summary>
         [Test]
         public void getMoisSuivantTest1()
         {
-            Assert.AreEqual("05", clotureFichesGSB.GestionDates.getMoisSuivant());
+            Assert.AreEqual("06", clotureFichesGSB.GestionDates.getMoisSuivant());
         }
 
-        //Test mois suivant avec une date quelconque
+        /// <summary>
+        /// Test mois suivant avec une date quelconque
+        /// </summary>
         [Test]
         public void getMoisSuivantTest2()
         {
@@ -48,7 +58,9 @@ namespace NUnit
             Assert.AreEqual("11", clotureFichesGSB.GestionDates.getMoisSuivant(mois));
         }
 
-        //Test mois suivant avec date particulière : décembre (donc mois = 12 moins un mois = 01)
+        /// <summary>
+        /// Test mois suivant avec date particulière : décembre (donc mois = 12 moins un mois = 01)
+        /// </summary>
         [Test]
         public void getMoisSuivantTest3()
         {
@@ -56,22 +68,28 @@ namespace NUnit
             Assert.AreEqual("01", clotureFichesGSB.GestionDates.getMoisSuivant(mois));
         }
 
-        //Test : le jour de la date du jour doit être compris entre les deux paramètres.
+        /// <summary>
+        /// Test : le jour de la date du jour doit être compris entre les deux paramètres.
+        /// </summary>
         [Test]
         public void entreTest1()
         {
-            Assert.IsTrue(clotureFichesGSB.GestionDates.entre(20,31)) ;
+            Assert.IsTrue(clotureFichesGSB.GestionDates.entre(1,15)) ;
         }
 
 
-        //Test : le jour de la date du jour ne doit pas être compris entre les deux paramètres.
+        /// <summary>
+        /// Test : le jour de la date du jour ne doit pas être compris entre les deux paramètres.
+        /// </summary>
         [Test]
         public void entreTest2()
         {
             Assert.IsFalse(clotureFichesGSB.GestionDates.entre(7, 14)) ;
         }
 
-        //Test : le jour de la date passée en paramètre doit être compris entre les deux paramètres.
+        /// <summary>
+        /// Test : le jour de la date passée en paramètre doit être compris entre les deux paramètres.
+        /// </summary>
         [Test]
         public void entreTest3()
         {
@@ -79,7 +97,9 @@ namespace NUnit
             Assert.IsTrue(clotureFichesGSB.GestionDates.entre(date,10, 30));
         }
 
-        //Test : le jour de la date passée en paramètre ne doit pas être compris entre les deux paramètres.
+        /// <summary>
+        /// Test : le jour de la date passée en paramètre ne doit pas être compris entre les deux paramètres.
+        /// </summary>
         [Test]
         public void entreTest4()
         {
@@ -87,7 +107,9 @@ namespace NUnit
             Assert.IsFalse(clotureFichesGSB.GestionDates.entre(date,7, 14));
         }
 
-        //Test année du mois précédent avec date donnée en paramètre.
+        /// <summary>
+        /// Test année du mois précédent avec date donnée en paramètre.
+        /// </summary>
         [Test]
         public void getAnneePrecedentTest1() 
         {
@@ -95,7 +117,9 @@ namespace NUnit
             Assert.AreEqual("2013", clotureFichesGSB.GestionDates.getAnneePrecedent(date));
         }
 
-        //Test année du mois précédent avec date au mois de janvier.
+        /// <summary>
+        /// Test année du mois précédent avec date au mois de janvier.
+        /// </summary>
         [Test]
         public void getAnneePrecedentTest2()
         {
@@ -103,14 +127,18 @@ namespace NUnit
             Assert.AreEqual("2012", clotureFichesGSB.GestionDates.getAnneePrecedent(date));
         }
 
-        //Test année du mois précédent avec date du jour.
+        /// <summary>
+        /// Test année du mois précédent avec date du jour.
+        /// </summary>
         [Test]
         public void getAnneePrecedentTest3()
         {
             Assert.AreEqual("2016", clotureFichesGSB.GestionDates.getAnneePrecedent());
         }
 
-        //Test année/mois précédent avec date donnée en paramètre.
+        /// <summary>
+        /// Test année/mois précédent avec date donnée en paramètre.
+        /// </summary>
         [Test]
         public void getMoisAnneePrecedentTest1()
         {
@@ -118,7 +146,9 @@ namespace NUnit
             Assert.AreEqual("200407", clotureFichesGSB.GestionDates.getMoisAnneePrecedent(date));
         }
 
-        //Test année/mois précédent avec date au mois de janvier.
+        /// <summary>
+        /// Test année/mois précédent avec date au mois de janvier.
+        /// </summary>
         [Test]
         public void getMoisAnneePrecedentTest2()
         {
@@ -126,12 +156,18 @@ namespace NUnit
             Assert.AreEqual("199912", clotureFichesGSB.GestionDates.getMoisAnneePrecedent(date));
         }
 
-        //Test année du mois précédent avec date du jour.
+        /// <summary>
+        /// Test année du mois précédent avec date du jour.
+        /// </summary>
         [Test]
         public void getMoisAnneePrecedentTest3()
         {
-            Assert.AreEqual("201603", clotureFichesGSB.GestionDates.getMoisAnneePrecedent());
+            Assert.AreEqual("201604", clotureFichesGSB.GestionDates.getMoisAnneePrecedent());
         }
 
+        public void getMoisPrecedentFrancais()
+        {
+            Assert.AreEqual("05/2016", clotureFichesGSB.GestionDates.getMoisPrecedentFrancais());
+        }
     }
 }

@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>clotureFichesGSB</name>
+    </assembly>
+    <members>
+        <member name="M:clotureFichesGSB.AccesDonnees.#ctor">
+            <summary>
+            Constructeur de la classe AccesDonnees : crée un objet d'accès à la base de données
+            </summary>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.Initialize">
+            <summary>
+             Méthode pour initialiser la connexion.
+            </summary>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.getHost">
+            <summary>
+            Get Serveur.
+            </summary>
+            <returns></returns> 
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.getPassword">
+            <summary>
+            Get Mot de passe.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.getUser">
+            <summary>
+            Get Utilisateur.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.getDatabase">
+            <summary>
+            Get Base de données
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.exec(System.String,System.String[],System.String[])">
+            <summary>
+             Méthode pour exécuter requêtes d'insertion/modification/suppression
+            </summary>
+            <param name="requete"></param>
+            <param name="valeur"></param>
+            <param name="cle"></param>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.query(System.String,System.String[],System.String[])">
+            <summary>
+            méthode pour exécuter requête de recherche à résultat unique
+            </summary>
+            <param name="requete"></param>
+            <param name="valeur"></param>
+            <param name="cle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.queryAll(System.String,System.String[],System.String[])">
+            <summary>
+            méthode pour exécuter requête de recherche à résultats multiples
+            </summary>
+            <param name="requete"></param>
+            <param name="valeur"></param>
+            <param name="cle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.querySansParam(System.String)">
+            <summary>
+            méthode pour exécuter requête de recherche à résultat unique sans paramètres
+            </summary>
+            <param name="requete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.AccesDonnees.queryAllSansParam(System.String,System.String[],System.String[])">
+            <summary>
+            méthode pour exécuter requête de recherche à résultats multiples sans paramètres
+            </summary>
+            <param name="requete"></param>
+            <param name="valeur"></param>
+            <param name="cle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionFiches.clotureFiches">
+            <summary>
+            clôture des fiches créées le mois précédent et qui n'ont pas été clôturées
+            </summary>
+        </member>
+        <member name="M:clotureFichesGSB.GestionFiches.miseEnPaiementFiches">
+            <summary>
+            mise en paiement des fiches créées le mois précédent à partir du 20 du mois
+            </summary>
+        </member>
+        <member name="M:clotureFichesGSB.Conversion.objectVersInt(System.Object)">
+            <summary>
+            Convertit un objet de type object vers une variable de type int
+            </summary>
+            <param name="valeur"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.Conversion.objectVersString(System.Object)">
+            <summary>
+            Convertit un objet de type object vers un objet de type String
+            </summary>
+            <param name="valeur"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.Conversion.dateVersStringMois(System.DateTime)">
+            <summary>
+            Convertit un objet de type Date vers un objet de type String en ne récupérant que le mois 
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.Conversion.dateVersStringAnnee(System.DateTime)">
+            <summary>
+            Convertit un objet de type Date vers un objet de type String en ne récupérant que l'année
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.calculMois(System.DateTime,System.Int32)">
+            <summary>
+            Retourne le numéro du mois obtenu après avoir soustrait le nombre de mois passé en paramètre à la date passée en paramètre.
+            </summary>
+            <param name="mois"></param>
+            <param name="nbMois"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.calculMois(System.Int32)">
+            <summary>
+            Retourne le numéro du mois obtenu après soustrait le nombre de mois passé en paramètre à la date du jour.
+            </summary>
+            <param name="mois"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisPrecedent(System.DateTime)">
+            <summary>
+            Retourne le numéro du mois précédent par rapport à la date passée en paramètre.
+            </summary>
+            <param name="mois"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisPrecedent">
+            <summary>
+            Retourne le numéro du mois précédent par rapport à la date du jour.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisSuivant(System.DateTime)">
+            <summary>
+            Retourne le numéro du mois suivant par rapport à la date passée en paramètre.
+            </summary>
+            <param name="mois"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisSuivant">
+            <summary>
+            Retourne le numéro du mois suivant par rapport à la date du jour.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.entre(System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Retourne vrai si le numéro du jour de la date passée en paramètre est comprise entre les deux numéros passés en paramètres.
+            </summary>
+            <param name="jourEntre"></param>
+            <param name="jourInf"></param>
+            <param name="jourSup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.entre(System.Int32,System.Int32)">
+            <summary>
+            Retourne vrai si le numéro du jour de la date du jour est comprise entre les deux numéros passés en paramètres.
+            </summary>
+            <param name="jourInf"></param>
+            <param name="jourSup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getAnneePrecedent(System.DateTime)">
+            <summary>
+            Retourne l'année du mois précédent du mois passé en paramètre(notamment pour traiter le mois de janvier)
+            </summary>
+            <param name="mois"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getAnneePrecedent">
+            <summary>
+            Retourne l'année du mois précédent du jour
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisAnneePrecedent(System.DateTime)">
+            <summary>
+            Retourne la concaténation du mois et de l'année précédent de la date passée en paramètre.
+            </summary>
+            <param name="moisAnnee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisAnneePrecedent">
+            <summary>
+            Retourne la concaténation du mois et de l'annnée précédent de la date du jour.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.GestionDates.getMoisPrecedentFrancais">
+            <summary>
+            Retourne la concaténation du mois précédent sous la forme MM/YYYY
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:clotureFichesGSB.Demarrage.Main">
+            <summary>
+            Point d'entrée principal de l'application. 
+            Déclaration du timer.
+            Ligne de commande.
+            Déclaration du thread avec la fonction setTimer réalisant les opérations sur la base de données.
+            Démarrage du thread.
+            Durée infinie du thread.
+            </summary>
+        </member>
+        <member name="M:clotureFichesGSB.GestionTimer.#ctor(System.Int32)">
+            <summary>
+            Constructeur de la classe GestionTimer : valorise les propriétés delaiTimer (pour le délai du timer) et instancie un objet de type Timer.
+            </summary>
+            <param name="delaiTimer"></param>
+        </member>
+        <member name="M:clotureFichesGSB.GestionTimer.OnTimedEvent(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            Définition des actions du timer à chaque tick (les deux fonctions de modifications de données).
+            </summary>
+            <param name="source"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:clotureFichesGSB.GestionTimer.setTimer">
+            <summary>
+            Exécution du timer (démarrage et répétition tic)
+            </summary>
+        </member>
+    </members>
+</doc>

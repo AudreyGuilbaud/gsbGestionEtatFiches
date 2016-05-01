@@ -7,3 +7,4 @@ C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\c
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\nunit.framework.xml
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\clotureFichesGSB.exe
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\obj\x86\Debug\clotureFichesGSB.exe
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\clotureFichesGSB\bin\Debug\clotureFichesGSB.XML

@@ -12,3 +12,4 @@ C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\N
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\clotureFichesGSB.pdb
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\obj\x86\Debug\NUnit.csprojResolveAssemblyReference.cache
 C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Audrey\Documents\Mes Documents\BtsSio\ProjetsBTS\PPE\clotureFichesGSB\NUnit\bin\Debug\clotureFichesGSB.xml
