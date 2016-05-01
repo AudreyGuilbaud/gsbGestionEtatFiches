@@ -5,7 +5,7 @@ using System.Text;
 
 namespace clotureFichesGSB
 {
-    public abstract class GestionFiches
+    abstract class GestionFiches
     {
         static string etatSaisie = "CR";
         static string etatCloture = "CL";
@@ -37,6 +37,10 @@ namespace clotureFichesGSB
             }
         }
 
+        public static void affichageConsole()
+        {
+            Console.WriteLine("Actualisation de l'état des fiches du mois : " + GestionDates.getMoisPrecedentFrancais());
+        }
     }
 
 }

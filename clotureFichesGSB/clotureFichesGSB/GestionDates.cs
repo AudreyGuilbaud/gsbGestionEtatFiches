@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace clotureFichesGSB {
-    public abstract class GestionDates {
+        public abstract class GestionDates {
         
         /// <summary>
         /// Retourne le numéro du mois obtenu après avoir soustrait le nombre de mois passé en paramètre à la date passée en paramètre.
@@ -33,7 +33,7 @@ namespace clotureFichesGSB {
         /// </summary>
         /// <param name="mois"></param>
         /// <returns></returns>
-        public static string getMoisPrecedent(DateTime mois) 
+        private static string getMoisPrecedent(DateTime mois) 
         {
             return calculMois(mois, -1);
         }
@@ -52,7 +52,7 @@ namespace clotureFichesGSB {
         /// </summary>
         /// <param name="mois"></param>
         /// <returns></returns>
-        public static string getMoisSuivant(DateTime mois) 
+        private static string getMoisSuivant(DateTime mois) 
         {
             return calculMois(mois, 1);
         }
@@ -61,7 +61,7 @@ namespace clotureFichesGSB {
         /// Retourne le numéro du mois suivant par rapport à la date du jour.
         /// </summary>
         /// <returns></returns>
-        public static string getMoisSuivant() 
+        private static string getMoisSuivant() 
         {
             return calculMois(1);
         }
@@ -73,7 +73,7 @@ namespace clotureFichesGSB {
         /// <param name="jourInf"></param>
         /// <param name="jourSup"></param>
         /// <returns></returns>
-        public static bool entre(DateTime jourEntre, int jourInf, int jourSup) 
+        private static bool entre(DateTime jourEntre, int jourInf, int jourSup) 
         {
             int jour = Conversion.objectVersInt(jourEntre.Day);
             return ( (jour >= jourInf) && (jour <= jourSup) ) ;
@@ -95,7 +95,7 @@ namespace clotureFichesGSB {
         /// </summary>
         /// <param name="mois"></param>
         /// <returns></returns>
-        public static string getAnneePrecedent(DateTime mois)
+        private static string getAnneePrecedent(DateTime mois)
         {
             string resultat = Conversion.dateVersStringAnnee(mois.AddMonths(-1));
             return resultat;
@@ -105,7 +105,7 @@ namespace clotureFichesGSB {
         /// Retourne l'année du mois précédent du jour
         /// </summary>
         /// <returns></returns>
-        public static string getAnneePrecedent() {
+        private static string getAnneePrecedent() {
             return getAnneePrecedent(DateTime.Today);
         }
 
@@ -115,7 +115,7 @@ namespace clotureFichesGSB {
         /// </summary>
         /// <param name="moisAnnee"></param>
         /// <returns></returns>
-        public static string getMoisAnneePrecedent(DateTime moisAnnee) 
+        private static string getMoisAnneePrecedent(DateTime moisAnnee) 
         {
             string mois = getMoisPrecedent(moisAnnee);
             string annee = getAnneePrecedent(moisAnnee);

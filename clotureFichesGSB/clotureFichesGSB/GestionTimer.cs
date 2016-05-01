@@ -35,7 +35,8 @@ namespace clotureFichesGSB
         /// Exécution du timer (démarrage et répétition tic)
         /// </summary>
         public void setTimer()
-        {          
+        {
+            GestionFiches.affichageConsole();
             leTimer.AutoReset = true;
             leTimer.Enabled = true;
             leTimer.Elapsed += OnTimedEvent;

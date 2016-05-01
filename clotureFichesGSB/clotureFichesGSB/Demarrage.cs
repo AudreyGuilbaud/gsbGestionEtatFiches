@@ -26,7 +26,6 @@ namespace clotureFichesGSB
         static void Main()
         {           
             GestionTimer timer = new GestionTimer(10000);
-            Console.WriteLine("Actualisation de l'état des fiches du mois : " + GestionDates.getMoisPrecedentFrancais());
             Thread nonFermeture = new Thread(timer.setTimer);
             nonFermeture.Start();
             Thread.Sleep(Timeout.Infinite);
